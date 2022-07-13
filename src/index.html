@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OPPPO</title>
+    <link rel="shortcut icon" href="#" />
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <link rel="stylesheet" type="text/css" href="css/swiper.css">
+
+    <link rel="stylesheet" typpe="text/css" href="css/animate.min.css">
+    <!--页面无效果 未引用 ↑↑↑-->
+
+    <style type="text/css">
+        body {
+            background: #eee;
+            font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+            font-size: 14px;
+            color: #000;
+            margin: 0;
+            padding: 0;
+        }
+
+        #banner {
+            height: 100px;
+        }
+
+        .swiper-container {
+            width: 100%;
+            height: 632px;
+        }
+
+        .swiper-slide {
+            text-align: center;
+            font-size: 18px;
+            background: #fff;
+
+            /* Center slide text vertically */
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: -webkit-flex;
+            display: flex;
+            -webkit-box-pack: center;
+            -ms-flex-pack: center;
+            -webkit-justify-content: center;
+            justify-content: center;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            -webkit-align-items: center;
+            align-items: center;
+        }
+    </style>
+
+</head>
+
+<body>
+    <!-- 页面的顶部 -->
+    <div id="top">
+        <div class="container"></div>
+
+    </div>
+
+
+    <!-- 页面头部 -->
+    <div id="header">
+        <div class="container">
+            <div class="header_left left">
+                <div class="xlwb"></div>
+                <div class="txwb"></div>
+                <div class="tel">4001-666-888</div>
+            </div>
+            <ul class="right">
+                <li><a href="#">登录</a></li>
+                <li><a href="#">注册</a></li>
+                <li><a href="#">积分兑换</a></li>
+                <li><a href="#">帮助中心</a></li>
+                <li class="shop_car"><span></span><a href="#">购物车</a></li>
+            </ul>
+
+        </div>
+    </div>
+    <!-- 页面的导航 -->
+    <div id="nav">
+        <div class="container">
+            <div class="logo left">
+                <img src="../src/css/img/oppo.png">
+            </div>
+            <ul class="right">
+                <li><a href="#">首页</a></li>
+                <li><a href="#">手机</a></li>
+                <li><a href="#">配件</a></li>
+                <li><a href="#">服务</a></li>
+                <li><a href="#">体验店</a></li>
+                <li><a href="#">软件商店</a></li>
+                <li><a href="#">Colors</a></li>
+            </ul>
+        </div>
+    </div>
+    <!-- 页面的banner -->
+
+    <div id="banner">
+        <!-- <div class="container"></div> -->
+        <div class="swiper-container swiper-container-horizontal swiper-container-fade" style="cursor: grab;">
+            <div class="swiper-wrapper" style="transition-duration: 1000ms;">
+                <div class="swiper-slide swiper-slide-duplicate" data-swiper-slide-index="3"
+                    style="width: 235px; transform: translate3d(0px, 0px, 0px); opacity: 1; transition-duration: 1000ms;">
+                    <img src="../src/css/img/banner4.png" width="100%;" height="638">
+                </div>
+                <div class="swiper-slide swiper-slide-prev" data-swiper-slide-index="0"
+                    style="width: 235px; transform: translate3d(-235px, 0px, 0px); opacity: 1; transition-duration: 1000ms;">
+                    <img src="../src/css/img/banner1.png" width="100%;" height="638">
+                </div>
+                <div class="swiper-slide swiper-slide-active" data-swiper-slide-index="1"
+                    style="width: 235px; transform: translate3d(-470px, 0px, 0px); opacity: 1; transition-duration: 1000ms;">
+                    <img src="../src/css/img/banner2.png" width="100%;" height="638">
+                </div>
+                <div class="swiper-slide swiper-slide-next" data-swiper-slide-index="2"
+                    style="width: 235px; transform: translate3d(-705px, 0px, 0px); opacity: 0; transition-duration: 1000ms;">
+                    <img src="../src/css/img/banner3.png" width="100%;" height="638">
+                </div>
+                <div class="swiper-slide" data-swiper-slide-index="3"
+                    style="width: 235px; transform: translate3d(-940px, 0px, 0px); opacity: 0; transition-duration: 1000ms;">
+                    <img src="../src/css/img/banner4.png" width="100%;" height="638">
+                </div>
+
+                <div class="swiper-slide swiper-slide-duplicate" data-swiper-slide-index="0"
+                    style="width: 235px; transform: translate3d(-1175px, 0px, 0px); opacity: 0; transition-duration: 1000ms;">
+                    <img src="../src/css/img/banner1.png" width="100%;" height="638">
+                </div>
+            </div>
+            <!-- Add Pagination -->
+            <div class="swiper-pagination swiper-pagination-clickable swiper-pagination-bullets"><span
+                    class="swiper-pagination-bullet"></span><span
+                    class="swiper-pagination-bullet swiper-pagination-bullet-active"></span><span
+                    class="swiper-pagination-bullet"></span><span class="swiper-pagination-bullet"></span></div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+        <div class="banner-nav-bg"></div>
+    </div>
+
+
+
+    <!-- 页面的明星机型 -->
+    <div id="star">
+        <div class="container">
+            <div class="start_top">
+                <img src="../src/css/img/top1.png">
+            </div>
+            <ul class="B">
+                <li class="A">
+                    <div>
+                        <img src="../src/css/img/top2.png">
+                    </div>
+                    <h2>N3</h2>
+                    <p>4800万双核摄像头</p>
+                    <p class="money">&yen;3999 立即购买 <span></span></p>
+                </li>
+                <li class="A">
+                    <div>
+                        <img src="../src/css/img/top4.png">
+                    </div>
+                    <h2>N3</h2>
+                    <p>4800万双核摄像头</p>
+                    <p class="money">&yen;3999 立即购买 <span></span></p>
+                </li>
+                <li class="A">
+                    <div>
+                        <img src="../src/css/img/top5.png">
+                    </div>
+                    <h2>N3</h2>
+                    <p>4800万双核摄像头</p>
+                    <p class="money">&yen;3999 立即购买 <span></span></p>
+                </li>
+                <li class="A">
+                    <div>
+                        <img src="../src/css/img/top3.png">
+                    </div>
+                    <h2>N3</h2>
+                    <p>4800万双核摄像头</p>
+                    <p class="money">&yen;3999 立即购买 <span></span></p>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- 页面的精选配件部分 -->
+    <div id="accessory">
+        <div class="container">
+            <div class="acc_top">
+                <h2 style="white-space:pre">OPPO&nbspAAESSORY&nbsp官网配件
+                </h2>
+                <img src="../src/css/img/acctop1(1).png">
+            </div>
+            <div class="acc_main">
+                <div class="acc_left left">
+                    <div><img src="../src/css/img/pj.png">
+                        <p>OPPO 保护皮套</p>
+                        <p class="money">&yen;3999 立即购买 <span></span></p>
+                        <p></p>
+                    </div>
+                    <div class="acc_all">
+
+                        <ul>
+                            <li id="pj">OPPO&nbspAAESSORY&nbsp配件</li>
+
+                            <li>耳机</li>
+                            <li>耳机</li>
+                            <li>耳机</li>
+                            <li>耳机</li>
+                            <li>耳机</li>
+                            <li>耳机</li>
+                        </ul>
+                        <h2 class="line"></h2>
+                        <p class="acc">全部配件 <span></span></p>
+                    </div>
+                    <div>
+                        <img src="../src/css/img/pj1.png">
+                        <p>OPPO 保护皮套</p>
+                        <p class="money">&yen;3999 立即购买 <span></span></p>
+                    </div>
+                    <div><img src="../src/css/img/pj2.png">
+                        <p>OPPO 保护皮套</p>
+                        <p class="money">&yen;3999 立即购买 <span></span></p>
+                    </div>
+
+                    <div><img src="../src/css/img/pj3.png">
+                        <p>OPPO 保护皮套</p>
+                        <p class="money">&yen;3999 立即购买 <span></span></p>
+                    </div>
+                </div>
+
+                <div class="acc_right right">
+
+                    <div><img src="../src/css/img/pjr(1).png">
+                        <p>OPPO 全新2代平板</p>
+                        <p class="money">&yen;2399 立即购买 <span></span></p>
+                    </div>
+                    <div><img src="../src/css/img/pjr(2).png">
+                        <p>OPPO 2代蓝牙耳机</p>
+                        <p class="money">&yen;2399 立即购买 <span></span></p>
+                    </div>
+                    <div><img src="../src/css/img/pjr(4).png">
+                        <p> OPPO 2代蓝牙耳机</p>
+                        <p class="money">&yen;2399 立即购买 <span></span></p>
+                    </div>
+                    <div><img src="../src/css/img/pjr(3).png">
+                        <p>OPPO 2代蓝牙耳机</p>
+                        <p class="money">&yen;2399 立即购买 <span></span></p>
+                    </div>
+                    <div><img src="../src/css/img/pjr(5).png"></div>
+                    <div><img src="../src/css/img/pjr(6).png"></div>
+                    <div><img src="../src/css/img/pjr(7).png"> </div>
+                    <p class="acc2">更多配件信息请点击</p>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <!-- 页面的探索欧珀部分 -->
+    <div id="world">
+        <div class="container">
+
+            <div class="world_top">
+                <h2 style="white-space:pre">WORLD<span>&nbspOF OPPO</span> &nbsp&nbsp探索欧珀
+                </h2>
+            </div>
+            <div class="world_main">
+                <div class="world_left left">
+                    <div>
+                        <p><span>购物赚积分</span></p>
+                        <p>更多惊喜值得期待</p>
+                        <img src="../src/css/img/mh5.png">
+                    </div>
+                    <div>
+                        <p><span>购物赚积分</span></p>
+                        <p>更多惊喜值得期待</p><img src="../src/css/img/mh6.png">
+                    </div>
+                    <div>
+                        <p><span>购物赚积分</span></p>
+                        <p>更多惊喜值得期待</p><img src="../src/css/img/mh7.png">
+                    </div>
+                    <div>
+                        <p><span>购物赚积分</span></p>
+                        <p>更多惊喜值得期待</p><img src="../src/css/img/mh8.png">
+                    </div>
+                </div>
+                <div class="world_right right">
+                    <div class="world_title">
+                        <div class="news">新闻</div>
+                        <div class="wb">微博</div>
+                    </div>
+                    <ul>
+                        <li>
+                            <dl>
+                                <dt>
+                                    <img src="../src/css/img/mh1.png">
+                                </dt>
+                                <dd>OPPO 打造纽约时装周梦幻之旅</dd>
+                            </dl>
+                        </li>
+                        <li>
+                            <dl>
+                                <dt>
+                                    <img src="../src/css/img/mh2.png">
+                                </dt>
+                                <dd>OPPO 打造纽约时装周梦幻之旅</dd>
+                            </dl>
+                        </li>
+                        <li>
+                            <dl>
+                                <dt>
+                                    <img src="../src/css/img/mh3.png">
+                                </dt>
+                                <dd>OPPO 打造纽约时装周梦幻之旅</dd>
+                            </dl>
+                        </li>
+                        <li>
+                            <dl>
+                                <dt>
+                                    <img src="../src/css/img/mh4.png">
+                                </dt>
+                                <dd>OPPO 打造纽约时装周梦幻之旅</dd>
+                            </dl>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 页面的服务部分 -->
+    <div id="serve">
+        <div class="container">
+            <ul>
+                <li>
+                    <dl>
+                        <dt><img src="../src/css/img/tb1.png"></dt>
+                        <dd class="dd1">正品报障</dd>
+                        <dd class="dd2">所有商品都是原装产品</dd>
+                    </dl>
+                </li>
+                <li>
+                    <dl>
+                        <dt><img src="../src/css/img/tb2.png"></dt>
+                        <dd class="dd1">正品报障</dd>
+                        <dd class="dd2">所有商品都是原装产品</dd>
+                    </dl>
+                </li>
+                <li>
+                    <dl>
+                        <dt><img src="../src/css/img/tb3.png"></dt>
+                        <dd class="dd1">正品报障</dd>
+                        <dd class="dd2">所有商品都是原装产品</dd>
+                    </dl>
+                </li>
+                <li>
+                    <dl>
+                        <dt><img src="../src/css/img/tb4.png"></dt>
+                        <dd class="dd1">正品报障</dd>
+                        <dd class="dd2">所有商品都是原装产品</dd>
+                    </dl>
+                </li>
+                <li>
+                    <dl>
+                        <dt><img src="../src/css/img/tb5.png"></dt>
+                        <dd class="dd1">正品报障</dd>
+                        <dd class="dd2">所有商品都是原装产品</dd>
+                    </dl>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- 页面的售后服务部分 -->
+    <div id="after_sale">
+        <div class="container">
+            <ul>
+                <li>
+                    <ol>
+                        <li><a href="#">关于我们</a></li>
+                        <li><a href="#">关于oppo</a></li>
+                        <li><a href="#">新闻中心</a></li>
+                        <li><a href="#">人才招聘</a></li>
+                    </ol>
+                </li>
+                <li>
+                    <ol>
+                        <li><a href="#">关于我们</a></li>
+                        <li><a href="#">关于oppo</a></li>
+                        <li><a href="#">新闻中心</a></li>
+                        <li><a href="#">人才招聘</a></li>
+                    </ol>
+                </li>
+                <li>
+                    <ol>
+                        <li><a href="#">关于我们</a></li>
+                        <li><a href="#">关于oppo</a></li>
+                        <li><a href="#">新闻中心</a></li>
+                        <li><a href="#">人才招聘</a></li>
+                    </ol>
+                </li>
+                <li>
+                    <ol>
+                        <li><a href="#">关于我们</a></li>
+                        <li><a href="#">关于oppo</a></li>
+                        <li><a href="#">新闻中心</a></li>
+                        <li><a href="#">人才招聘</a></li>
+                    </ol>
+                </li>
+                <li>
+                    <ol>
+                        <li><span clas="xla"><img src="../src/css/img/xlwb.png"></span><a href="#">新浪微博</a></li>
+                        <li><span clas="xlb"><img src="../src/css/img/txwb.png"></span><a href="#">腾讯微博</a></li>
+                        <li><span clas="xlc"><img src="../src/css/img/rrw(1).png"></span><a href="#">人人网</a></li>
+                        <li><span clas="xld"><img src="../src/css/img/qqkj.png"></span><a href="#">QQ空间</a></li>
+                    </ol>
+                </li>
+                <li>
+                    <ol>
+                        <li><a href="#">关于我们</a></li>
+                        <li><a href="#">关于oppo</a></li>
+                        <li><a href="#">新闻中心</a></li>
+                        <li><a href="#">人才招聘</a></li>
+                    </ol>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- 页面的底部 -->
+    <div id="footer">
+        <div class="container">
+            <p>
+                <img src="../src/css/img/OPPO2(1).png">
+                <span>@2005-2015 北京市xxxxxxxx</span>
+                <a href="#">版权声明</a>
+                <a href="#">使用协议</a>
+                <a href="#">网站地址</a>
+                <a href="#">友情链接</a>
+                <a href="#">联系我们</a>
+            </p>
+        </div>
+    </div>
+
+    <!-- 返回顶部 -->
+    <div id="totop">
+        <a href="#" id="btn"><img src="../src/css/img/backtop.png" alt="backTop"></a>
+    </div>
+
+    <script type="text/javascript" src="../src/js/swiper.js"></script>
+    <script type="text/javascript"></script>
+
+    <script type="text/javascript">
+        var swiper = new Swiper('.swiper-container', {
+            pagination: '.swiper-pagination',
+            paginationClickable: true,
+            loop: true,
+            autoplay: 3000,
+
+
+            speed: 1000,
+            prevButton: '.swiper-button-prev',
+            nextButton: '.swiper-button-next',
+            effect: 'fade',//  effect: 'flip',effect: 'coverflow',slide', 'fade',cube
+            grabCursor: true,
+            cube: {
+                shadow: false,
+                slideShadows: false,
+                shadowOffset: 20,
+                shadowScale: 0.94
+            }
+        });
+    </script>
+    <script type="text/javascript">
+        // 页面加载后执行
+        window.onload = function () {
+            // 1、找到页面中的按钮
+            var totop = document.getElementById("btn");
+            var timer = null;
+            //2、给按钮绑定点击事件
+            totop.onclink = function () {
+                //周期性定时
+                timer = setInterval(function () {
+                    //3、获取滚动条距离浏览器顶端的距离
+                    var backTop = document.documentElement.srollTop || document.body.scrollTop;
+
+                    //  越滚越慢
+                    var speedTop = backTop / 5;
+
+                    document.documentElement.scrollTop = backTop - speedTop;
+                    if (backTop == 0) {
+                        clearInterval(timer);
+                    }
+                }, 1000);
+            }
+        }
+        //此按钮 越滚越慢效果未达到 具体原因未知↑↑↑
+    </script>
+
+
+</body>
+
+</html>

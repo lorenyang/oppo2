@@ -1,0 +1,829 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ol,
+ul {
+    list-style-type: none;
+}
+
+a {
+    color: #666;
+    text-decoration: none;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+/*测试部分*/
+#top,
+#header,
+#nav,
+#banner,
+#star,
+#accessory,
+#world,
+#serve,
+#after_sale,
+#footer {
+    height: 100px;
+    width: 100%;
+
+}
+
+.container {
+    width: 1280px;
+    margin: 0 auto;
+}
+
+
+/* 设置页面的样式 */
+#top {
+    height: 5px;
+    background-color: #00925f;
+}
+
+/* 设置页面头部的部分 */
+#header {
+    height: 30px;
+    background-color: #2d2d2d;
+}
+
+
+#header .xlwb {
+    width: 20px;
+    height: 20px;
+    background: url("../css/img/xlwb.png") -60px -100px;
+}
+
+#header .txwb {
+    width: 20px;
+    height: 20px;
+    background: url("../css/img/txwb.png") -60px -100px;
+}
+
+#header .header_left div {
+    float: left;
+    margin: 5px 10px 0;
+}
+
+#header ul li {
+    float: left;
+    line-height: 30px;
+}
+
+#header .tel {
+    color: green;
+}
+
+#header li a {
+    color: #b2b2b2;
+    font-size: 14px;
+    border-right: 1px solid #b2b2b2;
+    padding: 0px 15px;
+}
+
+#header li a:hover {
+    color: #00925f;
+}
+
+
+#header .shop_car a {
+    border: none;
+    padding-left: 5px;
+}
+
+#header .shop_car span {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 10px;
+    background: url("../css/img/gwc.png") -60px -100px;
+}
+
+/* 设置导航栏的样式 */
+#nav {
+    height: 90px;
+    background-color: #eeeeee;
+}
+
+#nav .logo {
+    margin: 10px 0 0;
+}
+
+#nav li {
+    float: left;
+    margin: 0 15px;
+    line-height: 90px;
+}
+
+#nav li a {
+    color: #666666;
+    font-weight: bold;
+}
+
+#nav li a:hover {
+    font-weight: bold;
+    color: #00925f;
+}
+
+/* 设置网页明星机型部分的样式 */
+#star {
+    height: 600px;
+    background-color: #f2f2f2;
+
+}
+
+#star .start_top {
+    text-align: center;
+    margin: 20px;
+    width: auto;
+}
+
+#star li {
+    width: 200px;
+    float: left;
+    border-bottom: 4px solid #dfdfdf;
+    transition: all 0.3s;
+}
+
+#star li:hover {
+    border-bottom: 3px solid rgb(0, 176, 157);
+    transform: translateY(-15px);
+}
+
+#star li img {
+    width: 200px;
+}
+
+#star li h2 {
+    text-align: center;
+    margin-top: 10px;
+}
+
+#star li p {
+    font-size: 14px;
+    text-align: center;
+    margin: 10px 0;
+    color: #bdbdbd;
+}
+
+#star li .money {
+    color: rgb(0, 176, 157);
+    font-size: 16px;
+}
+
+#star li span {
+    width: 22px;
+    height: 22px;
+    display: inline-block;
+    vertical-align: middle;
+    background: url("../css/img/gm.png") -375px -420px;
+}
+
+#star ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+/*设置 配件 部分样式*/
+#accessory {
+    height: 1440px;
+    background-color: #f6f6f6;
+    overflow: hidden;
+
+}
+
+#accessory .acc_top {
+    text-align: center;
+    margin: 10px 0px 0px 0px;
+    font-size: 20px;
+    white-space: pre-line;
+    font-family: serif;
+}
+
+#accessory .acc_top>h2 {
+    line-height: 10px;
+    margin-bottom: 0px;
+}
+
+#accessory .acc_top>img {
+    margin-top: 0px;
+}
+
+#accessory .acc_main {
+    width: 1140px;
+    margin: 10px auto;
+}
+
+#accessory .acc_top p {
+    font-size: 26px;
+    font-style: initial;
+    margin: 10px 0 20px;
+}
+
+/*accessory left 布局*/
+#accessory .acc_left {
+    width: 540px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
+#accessory .acc_left div {
+    float: left;
+    border-bottom: 3px solid #dfdfdf;
+    margin-bottom: 30px;
+    transition: all 0.2s
+}
+
+#accessory .acc_left>div:first-child {
+    margin-top: 10px;
+}
+
+#accessory .acc_left li:hover {
+    color: rgb(0, 176, 157);
+    font-size: 20px;
+    transition: all 0.2s;
+}
+
+#accessory .acc_left>div:last-child {
+    margin-top: -10px;
+
+}
+
+#accessory .acc_left div:hover {
+    border-bottom: 3px solid rgb(0, 176, 157);
+    transform: translateY(-15px);
+}
+
+
+
+
+/*配件图片布局*/
+#accessory .acc_left img {
+    width: auto;
+    margin: 10px 16px 0px;
+}
+
+#accessory .acc_left p {
+    margin-top: 18px;
+    text-align: center;
+    font-size: 14px;
+    color: rgb(147, 147, 147);
+}
+
+
+#accessory .acc_left .money {
+    color: rgb(0, 176, 157);
+    font-size: 14px;
+    margin-left: 12px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+#accessory .acc_left p span {
+    width: 22px;
+    height: 22px;
+    display: inline-block;
+    vertical-align: middle;
+    background: url("../css/img/gm.png") -444px -551px;
+    margin-left: 5px;
+}
+
+#accessory .acc_left>div:last-child img {
+    width: 400px;
+    height: 180px;
+    margin-top: 30px;
+}
+
+
+
+#accessory .acc_all {
+    width: auto;
+    border: 3px solid #f2f2f2;
+    box-sizing: border-box;
+    text-align: center;
+    margin-top: 20px;
+}
+
+/*设置配件字体*/
+
+#accessory .acc_left li {
+    font-size: 14px;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 20px;
+    text-decoration: none;
+}
+
+
+
+#accessory .acc_all li:first-child {
+    width: 220px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 10px;
+    border-bottom: 1px solid #ccc;
+    color: #000;
+}
+
+
+#accessory .acc_all p:last-child {
+    margin-left: 10px;
+    text-align: center;
+}
+
+#accessory .acc_all p:last-child:hover {
+    color: rgb(0, 176, 157);
+}
+
+#accessory .acc_all .acc {
+    color: rgb(147, 147, 147);
+    font-weight: bold;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 28px;
+}
+
+#accessory .acc_all #pj {
+    margin: 30px 0px;
+    font-size: 16px;
+    text-decoration: none;
+    font-family: serif;
+}
+
+#accessory .acc_all .line {
+    border-top: 1px solid #ccc;
+    clear: both;
+}
+
+/*添加小图标——开截图把鼠标扶到想添加的位置 直接可以通过截图信息只找到定位*/
+#accessory .acc_all span {
+    width: 22px;
+    height: 22px;
+    display: inline-block;
+    vertical-align: middle;
+    background: url("../css/img/gm.png") -444px -551px;
+    margin-left: 10px;
+}
+
+
+/*右侧导航*/
+#accessory .acc_right {
+    width: 580px;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#accessory .acc_right img {
+    float: content;
+    text-decoration: none;
+    margin: 40px 12px 10px;
+    margin-top: 67px;
+
+}
+
+#accessory .acc_right div:first-child img {
+    width: 540px;
+    margin: 20px 0px 10px;
+    float: content;
+    text-align: center;
+}
+
+#accessory .acc_right p {
+    text-align: center;
+    font-size: 14px;
+    color: rgb(147, 147, 147);
+    margin-top: 10px;
+
+}
+
+#accessory .acc_right div:first-child p {
+    margin: 14px 0 10px;
+    margin-left: 0px;
+    font-size: 20px;
+
+}
+
+#accessory .acc_right div:first-child p:last-child {
+    margin: 20px 0 24px;
+    margin-left: 10px;
+    font-size: 18px;
+    text-align: center;
+}
+
+
+/*更多配件文字样式*/
+#accessory .acc_right .acc2 {
+    margin: auto 0px;
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 220px;
+    margin-top: 25px;
+    color: rgb(147, 147, 147);
+
+}
+
+
+#accessory .acc_right .acc2:hover {
+    border-bottom: 3px solid rgb(0, 176, 157);
+    transform: translateY(-5px);
+    color: rgb(0, 176, 157);
+}
+
+
+
+
+#accessory .acc_right p.money {
+    color: rgb(0, 176, 157);
+    font-size: 14px;
+    margin-left: 16px;
+    margin-bottom: 4px;
+}
+
+#accessory .acc_right span {
+    width: 22px;
+    height: 22px;
+    display: inline-block;
+    vertical-align: middle;
+    background: url("../css/img/gm.png") -444px -551px;
+    margin-left: 8px;
+}
+
+#accessory .acc_right div {
+    border-bottom: 3px solid #dfdfdf;
+    transition: all 0.3s;
+
+}
+
+#accessory .acc_right div:hover {
+    border-bottom: 3px solid rgb(0, 176, 157);
+    transform: translateY(-15px);
+}
+
+
+/*设置探索欧珀部分样式*/
+#world {
+    height: 750px;
+    clear: both;
+    background-color: rgb(246, 246, 246);
+}
+
+#world .world_top {
+    text-align: center;
+    margin: 0px auto;
+    font-size: auto;
+    white-space: pre-line;
+}
+
+#world .world_top span {
+    font-family: serif;
+    font-size: 30px;
+}
+
+#world .world_main {
+    margin: 0px auto;
+}
+
+/*图片均分布局  display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;*/
+
+#world .world_left {
+    width: 700px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: rgb(255, 255, 255);
+}
+
+
+#world .world_left div {
+    text-align: center;
+    border-bottom: 3px solid rgb(147, 147, 147);
+    margin: 20px;
+    background-color: rgb(246, 246, 246);
+    transition: all 0.3S;
+
+}
+
+
+#world .world_left div:hover {
+    border-bottom: 3px solid rgb(0, 176, 157);
+    transform: translateY(-10px);
+}
+
+#world .world_left p {
+    font-size: 14px;
+    color: rgb(147, 147, 147);
+    margin: 15px;
+
+}
+
+
+#world .world_left span {
+    font-weight: bold;
+    color: black;
+    font-size: 18px;
+    margin: 10px;
+    padding: 10px;
+}
+
+
+#world .world_right {
+    width: 500px;
+    background-color: #fff;
+
+}
+
+#world .world_right img {
+    width: 100px;
+}
+
+
+#world .world_right .world_title {
+
+    height: 60px;
+    background-color: rgb(246, 246, 246);
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+
+/*文字分别居中
+display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around; */
+
+#world .world_right .world_title div {
+    width: 250px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    transition: all 0.3s;
+    background-color: rgb(246, 246, 246);
+
+}
+
+#world .world_right .world_title div:first-child {
+    border-top: 3px solid #ccc;
+    background-color: #fff;
+    transition: all 0.3s;
+
+}
+
+#world .world_right .world_title div:hover {
+    border-top: 3px solid rgb(0, 176, 157);
+    background-color: #fff;
+    transform: translateY(-5px);
+    color: rgb(0, 176, 157);
+}
+
+#world .world_right ul {
+    margin: 20px;
+}
+
+#world .world_right ul li {
+    margin-top: 28px;
+    background-color: rgb(246, 246, 246);
+    border-bottom: 3px solid #ccc;
+    transition: all 0.3s;
+}
+
+#world .world_right ul li:hover {
+    border-bottom: 3px solid rgb(0, 176, 157);
+    background-color: #fff;
+    transform: translateY(-5px);
+}
+
+#world .world_right dl {
+    width: 400px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#world .world_right dt {
+    margin-left: 50px;
+    border-bottom: 3px solid rgb(223, 223, 223);
+    transition: all 0.3s;
+}
+
+#world .world_right dl dd {
+    margin-left: 40px;
+}
+
+#world .world_right dl dt:hover {
+    border-bottom: 3px solid rgb(0, 176, 157);
+    transform: translateY(-5px);
+
+}
+
+
+/* <!-- 页面的服务部分 --> */
+#serve {
+
+    height: 70px;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+
+}
+
+#serve dl {
+    margin: 15px 0px 2px;
+
+    width: 200px;
+    height: 45px;
+    display: flex;
+    justify-content: space-around;
+    display: block;
+    position: relative;
+}
+
+#serve dt {
+    width: 50px;
+    height: 50px;
+    background: -55px -645px;
+    display: flex;
+    justify-items: center;
+    text-align: center;
+    position: absolute;
+    margin-top: -8px;
+    margin-left: 15px;
+}
+
+#serve .dd1 {
+
+
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 8px;
+    display: flex;
+    justify-items: center;
+    justify-content: space-around;
+    text-align: center;
+
+}
+
+#serve .dd2 {
+
+    font-size: 12px;
+    margin-top: 5px;
+    margin-left: 65px;
+    color: rgb(147, 147, 147);
+
+}
+
+#serve ul {
+
+    display: flex;
+    justify-items: center;
+    justify-content: space-around;
+    text-align: center;
+
+}
+
+#serve li {
+
+    transition: all 0.3s;
+    border-bottom: 3px solid rgb(204, 204, 204);
+
+}
+
+#serve li:hover {
+    transform: translateY(-8px);
+    color: #00925f;
+    border-bottom: 3px solid #00925f;
+}
+
+/* 页面售后服务部分 */
+#after_sale {
+
+    margin-top: 10px;
+    height: 120px;
+    clear: both;
+    margin-bottom: 10px;
+    background-color: #fff;
+    display: block;
+}
+
+#after_sale ul {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    clear: both;
+}
+
+#after_sale ul>li {
+    justify-content: space-between;
+    text-align: center;
+
+}
+
+#after_sale ol>li {
+    line-height: 30px;
+    justify-content: space-around;
+    margin: 0px 40px;
+
+}
+
+#after_sale ul>li a:hover {
+    color: #00925f;
+}
+
+#after_sale ol>li:first-child a {
+    font-weight: bold;
+}
+
+#after_sale span {
+    width: 10px;
+    height: 10px;
+    background: -60px -100px;
+    justify-items: flex-start;
+    margin-right: 5px;
+}
+
+
+
+
+/* 页面底部 */
+#footer {
+    margin-top: 10px;
+    height: 50px;
+    background-color: #2d2d2d;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+#footer p img {
+    margin: 5PX 0px 5px -50px;
+    display: flex;
+    justify-content: center;
+    float: left;
+    font-style: white;
+}
+
+#footer span {
+    color: #828282;
+    margin: 20px 20px;
+    display: flex;
+    justify-content: center;
+    float: left;
+    font-size: 10px;
+}
+
+#footer p a {
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    float: right;
+    margin: 15px 20px 0px 0px;
+}
+
+#footer p a:hover {
+    color: #00925f;
+}
+
+/* banner 部分 ? 暂时未写 */
+#banner {
+    margin-bottom: 540px;
+    width: 100%;
+    height: auto;
+    clear: both;
+}
+
+
+/* 返回顶部 */
+#totop img {
+    width: 40px;
+    height: 40px;
+    position: fixed;
+    right: 0px;
+    bottom: 100px;
+}
